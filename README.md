@@ -1,4 +1,5 @@
 # hitung-makan
+Hitung makan pas beli ojol
 
 ## Project setup
 ```
