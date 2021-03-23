@@ -77,7 +77,7 @@ export default {
           priceToPay: member.spent + priceModifier
         }
       });
-      this.$emit("calculate", result)
+      this.$store.commit("setCalculatedPayment", result);
     },
     addMember(){
       this.members.push({
